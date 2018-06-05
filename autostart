@@ -1,0 +1,15 @@
+# Programs that will run after Openbox has started
+
+# Set the wallpaper
+#hsetroot -extend /home/davide/Immagini/wallpapersden.com_game-of-thrones-season-7-the-spoils-of-war-minimal-art_1600x900.jpg &
+pcmanfm --desktop &
+
+# Run a Composite manager
+compton &
+
+# SCIM support (for typing non-english characters)
+#scim -d &
+
+# A panel for good times
+xfce4-panel &
+xfce4-volumed &
